@@ -299,6 +299,7 @@ public class SimPhonebookProvider extends ContentProvider {
             } catch (RemoteException e) {
                 // Return an empty cursor. If service to access it is throwing remote
                 // exceptions then it's basically the same as not having a SIM.
+                result.close();
                 return new MatrixCursor(projection, 0);
             }
         }
@@ -320,6 +321,7 @@ public class SimPhonebookProvider extends ContentProvider {
         } catch (RemoteException e) {
             // Return an empty cursor. If service to access it is throwing remote
             // exceptions then it's basically the same as not having a SIM.
+            result.close();
             return new MatrixCursor(projection, 0);
         }
         return result;
