@@ -996,4 +996,11 @@
     <string name="voice_over_wifi_value" msgid="4958925307364093356">"‏مكالمة صوتية عبر شبكة Wi-Fi:"</string>
     <string name="video_calling_value" msgid="156519861684819255">"مكالمة فيديو:"</string>
     <string name="ut_interface_value" msgid="9038789989481463774">"‏واجهة UT:"</string>
+    <string name="telephony_attribution_tag">الهاتف</string>
+    <string name="alert_dialog_exit_ecm">{count, plural, =1 {سيبقى الهاتف في وضع رد الاتصال الطارئ لمدة دقيقة واحدة. أثناء هذا الوضع لا يمكن استخدام أي تطبيقات تستخدم اتصال بيانات. هل تريد الخروج الآن؟} other {سيبقى الهاتف في وضع رد الاتصال الطارئ لمدة %s دقائق. أثناء هذا الوضع لا يمكن استخدام أي تطبيقات تستخدم اتصال بيانات. هل تريد الخروج الآن؟}}</string>
+    <string name="alert_dialog_not_avaialble_in_ecm">{count, plural, =1 {الإجراء المحدد غير متاح أثناء وضع رد الاتصال الطارئ. سيبقى الهاتف في هذا الوضع لمدة دقيقة واحدة. هل تريد الخروج الآن؟} other {الإجراء المحدد غير متاح أثناء وضع رد الاتصال الطارئ. سيبقى الهاتف في هذا الوضع لمدة %s دقائق. هل تريد الخروج الآن؟}}</string>
+    <string name="alert_dialog_exit_ecm_without_data_restriction_hint">{count, plural, =1 {سيبقى الهاتف في وضع رد الاتصال الطارئ لمدة دقيقة واحدة.\nهل تريد الخروج الآن؟} other {سيبقى الهاتف في وضع رد الاتصال الطارئ لمدة %s دقائق.\nهل تريد الخروج الآن؟}}</string>
+    <string name="radio_info_imsi_label">IMSI:</string>
+    <string name="radio_info_gid1_label">GID1:</string>
+    <string name="radio_info_carrier_id_label">معرّف المشغّل:</string>
 </resources>
